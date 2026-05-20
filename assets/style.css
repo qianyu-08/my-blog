@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header, footer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+a {
+  color: #0366d6;
+}
