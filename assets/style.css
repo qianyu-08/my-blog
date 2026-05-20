@@ -1,16 +1,47 @@
 body {
-  font-family: sans-serif;
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-  line-height: 1.6;
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.7;
 }
 
-header, footer {
+header {
+  padding: 2rem;
   text-align: center;
-  margin: 20px 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+header h1 a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
 }
 
 a {
-  color: #0366d6;
+  color: #60a5fa;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #1e293b;
+  color: #64748b;
 }
